@@ -5,7 +5,7 @@ pool:
 steps:
 - task: AzurePowerShell@3
   inputs:
-    azureSubscription: '90027d94-9e2b-4e05-890d-e32917d9d622'
+    azureSubscription: 'Azure subscription 1'
     ScriptPath: 'AzureResourceGroupDemo/Deploy-AzureResourceGroup.ps1'
     ScriptArguments: -ResourceGroupName 'RG2' -ResourceGroupLocation 'eastus'
     azurePowerShellVersion: LatestVersion
