@@ -6,7 +6,7 @@
             "value": "eastus"
         },
         "networkInterfaceName": {
-            "value": "vm11368"
+            "value": "vm11369"
         },
         "networkSecurityGroupName": {
             "value": "vm1-nsg"
