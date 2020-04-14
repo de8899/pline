@@ -36,7 +36,7 @@
             ]
         },
         "publicIpAddressName": {
-            "value": "vm1-ip"
+            "value": "vm1-ip-address"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
