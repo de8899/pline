@@ -1,11 +1,12 @@
 #!/bin/bash
 echo "bash script start..."
-sudo uname -a > /tmp/dje.txt
-sudo echo "dje" >> /dje.txt
-sudo touch /tmp/file2
-touch /tmp/file1
-sudo echo "Hi!" >> /tmp/file2
-echo "Hi no sudo" >> /tmp/file1
+mkdir /var/dje/
+sudo uname -a > /var/dje/dje.txt
+sudo echo "dje" >> /var/dje/dje.txt
+sudo touch /var/file2
+touch /var/file1
+sudo echo "Hi!" >> /var/file2
+echo "Hi no sudo" >> /var/file1
 echo "bash script ended!!"
 echo "here's the date: " 
 date
