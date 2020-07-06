@@ -13,7 +13,7 @@ steps:
     azureResourceManagerConnection: 'Azure subscription 1(1)(39871908-78ed-4ef9-adbf-cb5c701334e3)'
     subscriptionId: '39871908-78ed-4ef9-adbf-cb5c701334e3'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'RG2'
+    resourceGroupName: 'RG3'
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/de8899/pline/master/template.json'
