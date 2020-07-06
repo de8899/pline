@@ -10,4 +10,4 @@ echo "Hi no sudo" >> /var/file1
 echo "bash script ended!!"
 echo "here's the date: " 
 date
-echo "done"
+echo "done with this one!"
