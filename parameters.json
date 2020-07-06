@@ -18,7 +18,7 @@
             "value": "default"
         },
         "virtualNetworkName": {
-            "value": "RG2-vnet"
+            "value": "RG3-vnet"
         },
         "addressPrefixes": {
             "value": [
@@ -48,7 +48,7 @@
             "value": "vm1"
         },
         "virtualMachineRG": {
-            "value": "RG2"
+            "value": "RG3"
         },
         "osDiskType": {
             "value": "Standard_LRS"
