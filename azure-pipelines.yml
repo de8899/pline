@@ -31,4 +31,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: 'bash testbash.sh'
+- task: Bash@3
+  inputs:
+    filePath: '/tmp/bash1.sh'
     
