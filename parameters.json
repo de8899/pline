@@ -18,7 +18,7 @@
             "value": "default"
         },
         "virtualNetworkName": {
-            "value": "RG3-vnet"
+            "value": "rg3-vnet"
         },
         "addressPrefixes": {
             "value": [
