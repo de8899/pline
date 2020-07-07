@@ -198,9 +198,9 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
             "fileUris": [
-                "<url>"
+                "https://raw.githubusercontent.com/de8899/pline/master/testbash.sh"
             ],
-            "commandToExecute": "<command>"
+            "commandToExecute": "bash testbash.sh"
             }
             }
         }
