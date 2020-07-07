@@ -76,7 +76,7 @@
             "properties": {
                 "ipConfigurations": [
                     {
-                        "name": "ipconfig-0704",
+                        "name": "ipconfig-0706",
                         "properties": {
                             "subnet": {
                                 "id": "[variables('subnetRef')]"
