@@ -182,6 +182,27 @@
                     "maxPrice": -1
                 }
             }
+        },
+        {
+            "type": "Microsoft.Compute/virtualMachines/extensions",
+            "name": "<extension-deployment-name>",
+            "apiVersion": "<api-version>",
+            "location": "<location>",
+            "dependsOn": [
+            "[concat('Microsoft.Compute/virtualMachines/', <vm-name>)]"
+            ],
+            "properties": {
+            "publisher": "Microsoft.OSTCExtensions",
+            "type": "CustomScriptForLinux",
+            "typeHandlerVersion": "1.5",
+            "autoUpgradeMinorVersion": true,
+            "settings": {
+            "fileUris": [
+                "<url>"
+            ],
+            "commandToExecute": "<command>"
+            }
+            }
         }
     ],
     "outputs": {
